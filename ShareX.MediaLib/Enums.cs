@@ -2,7 +2,7 @@
 
 /*
     ShareX - A program that allows you to take screenshots and share any file type
-    Copyright (c) 2007-2023 ShareX Team
+    Copyright (c) 2007-2025 ShareX Team
 
     This program is free software; you can redistribute it and/or
     modify it under the terms of the GNU General Public License
@@ -47,6 +47,10 @@ namespace ShareX.MediaLib
         h264_nvenc,
         [Description("HEVC / NVENC")]
         hevc_nvenc,
+        [Description("H.264 / AMF")]
+        h264_amf,
+        [Description("HEVC / AMF")]
+        hevc_amf,
         [Description("H.264 / Quick Sync")]
         h264_qsv,
         [Description("HEVC / Quick Sync")]
